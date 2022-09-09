@@ -31,6 +31,7 @@ function createMarkup(items) {
 }
 // подключам лайф бокс
 const lightbox = new SimpleLightbox(".gallery a", {
+  // подключаем функции
   captionsData: "alt",
   captionDelay: 250,
 });
