@@ -17,10 +17,10 @@ function getImgsrc(event) {
   // остановка дефолтное поведение браузера(перезагрузка страницы.)
   event.preventDefault();
   if (event.target.tagName !== "IMG") return;
-  const dataGalley = event.target.dataset.source;
+  const dataGallary = event.target.dataset.source;
   const instance = basicLightbox.create(
     `<div class="modal">
-      <img src="${dataGalley}" alt="cartoons" width="800"/>
+      <img src="${dataGallary}" alt="cartoons" width="800"/>
     </div>
 `
   );
